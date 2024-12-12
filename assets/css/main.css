@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F9F9F9;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+.navbar_nav {
+    gap: 20px;
+}
+
+.nav_link {
+    font-family: Poppins, serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding: 0 !important;
+}
+
+.nav_link.active {
+    color: #2757FF !important;
+}
+
+.btn-chat {
+    background-color: #2757FF;
+    box-shadow: 0 4px 30px 0 #3754F026;
+    padding: 16px 32px;
+    border-radius: 8px;
+    font-family: Poppins, serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+}
