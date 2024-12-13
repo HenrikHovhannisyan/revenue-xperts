@@ -1,8 +1,5 @@
 /* lg - For large devices */
 @media screen and (max-width: 992px) {
-    .navbar_nav {
-        gap: 10px;
-    }
 }
 
 /* md - For medium devices */

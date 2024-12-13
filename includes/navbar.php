@@ -1,6 +1,5 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">
             <a class="navbar-brand" href="#">
                 <img src="../assets/images/logo.svg" class="img-fluid" alt="Revenue Xperts">
             </a>

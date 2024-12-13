@@ -1,5 +1,8 @@
 <?php include 'includes/header.php'; ?>
-<?php include 'includes/navbar.php'; ?>
+<div class="banner_section">
+    <?php include 'includes/navbar.php'; ?>
+    <?php include 'includes/banner.php'; ?>
+</div>
 
 <main>
 
