@@ -1,7 +1,7 @@
 /* lg - For large devices */
 @media screen and (max-width: 992px) {
   #projects-spotlight {
-    margin-top: 50px;
+    padding-top: 50px;
     padding-bottom: 50px;
   }
 
@@ -9,6 +9,16 @@
     display: grid;
     justify-content: center;
     margin-bottom: 30px;
+  }
+
+  .arr {
+    border-left: unset;
+    border-right: unset;
+  }
+
+  .arr-container {
+    width: unset;
+    margin: unset;
   }
 }
 

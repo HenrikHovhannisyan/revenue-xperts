@@ -16,8 +16,9 @@ body {
   padding-bottom: 70px;
 }
 
+/* #projects-spotlight */
 #projects-spotlight {
-  margin-top: 100px;
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 
@@ -49,4 +50,59 @@ body {
 
 .accordion-button:not(.collapsed) {
   background-color: unset;
+}
+
+/* #price */
+#price {
+  background: #000000;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#price h3 {
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 39.2px;
+  letter-spacing: -0.05em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #8a8a8a;
+}
+
+#price h2 {
+  font-family: Poppins;
+  font-size: 43px;
+  font-weight: 600;
+  line-height: 34.83px;
+  letter-spacing: -0.05em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+
+#price .list-group.list-group-flush > li {
+  background-color: transparent;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #bebcbc;
+  padding-left: 0;
+  max-width: 375px;
+}
+
+.arr {
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+}
+
+.arr-container {
+  width: max-content;
+  margin: auto;
 }
