@@ -21,6 +21,10 @@
                     <div class="item"><img src="../assets/images/banner_slider/1.png" alt="Image 1"></div>
                     <div class="item"><img src="../assets/images/banner_slider/2.png" alt="Image 2"></div>
                     <div class="item"><img src="../assets/images/banner_slider/3.png" alt="Image 3"></div>
+                    <div class="item"><img src="../assets/images/banner_slider/4.png" alt="Image 4"></div>
+                    <div class="item"><img src="../assets/images/banner_slider/5.png" alt="Image 5"></div>
+                    <div class="item"><img src="../assets/images/banner_slider/6.png" alt="Image 6"></div>
+                    <div class="item"><img src="../assets/images/banner_slider/7.png" alt="Image 7"></div>
                 </div>
             </div>
         </div>
