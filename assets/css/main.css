@@ -33,11 +33,11 @@ body {
   color: #131313;
 }
 
-#accordionExample {
+#projects-spotlight #accordionExample {
   max-width: 621px;
 }
 
-#accordionExample h2 > button {
+#projects-spotlight #accordionExample h2 > button {
   font-family: Poppins;
   font-size: 24px;
   font-weight: 700;
@@ -105,4 +105,32 @@ body {
 .arr-container {
   width: max-content;
   margin: auto;
+}
+
+/* #faq */
+#faq {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#faq h2 > button {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #000000;
+}
+
+#faq .accordion-body {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #4c4c4c;
 }

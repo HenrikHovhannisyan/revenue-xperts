@@ -55,7 +55,6 @@
             </div>
         </div>
     </section>
-
     <section id="price">
         <div class="container-fluid">
             <div class="row">
@@ -96,6 +95,48 @@
                         <li class="list-group-item">ERP, EAM</li>
                         <li class="list-group-item">Project Collaboration</li>
                     </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="faq">
+        <div class="container-fluid">
+            <div class="accordion" id="accordionExample-faq">
+                <div class="accordion-item mb-3 rounded border shadow">
+                    <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    95% of SaaS firms fail
+                    </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample-faq">
+                    <div class="accordion-body">
+                    Often, technological innovations are derailed by the allure of quick fixes—such as aggressive growth hacks, relentless advertising, and excessive feature development—without identifying a proper target audience or establishing a clear path for growth. They find themselves stranded in The Chasm – a place where no clever strategy can offer salvation, highlighting the importance of thoughtful planning over chasing fleeting trends.
+                    </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-3 rounded border shadow">
+                    <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    We help SaaS & tech firms join the 5% club
+                    </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample-faq">
+                    <div class="accordion-body">
+                    Often, technological innovations are derailed by the allure of quick fixes—such as aggressive growth hacks, relentless advertising, and excessive feature development—without identifying a proper target audience or establishing a clear path for growth. They find themselves stranded in The Chasm – a place where no clever strategy can offer salvation, highlighting the importance of thoughtful planning over chasing fleeting trends.
+                    </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-3 rounded border shadow">
+                    <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Leveraging our GTM strategy for SaaS & tech.
+                    </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample-faq">
+                    <div class="accordion-body">
+                    Often, technological innovations are derailed by the allure of quick fixes—such as aggressive growth hacks, relentless advertising, and excessive feature development—without identifying a proper target audience or establishing a clear path for growth. They find themselves stranded in The Chasm – a place where no clever strategy can offer salvation, highlighting the importance of thoughtful planning over chasing fleeting trends.
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
