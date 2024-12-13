@@ -7,7 +7,46 @@ body {
   background-color: #f9f9f9;
 }
 
+.container-fluid {
+  max-width: 1400px;
+}
+
 .banner_section {
   background-image: url("../images/hero-banner.png");
   padding-bottom: 70px;
+}
+
+#projects-spotlight {
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+
+.projects-spotlight-title {
+  font-family: Poppins;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 73px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #131313;
+}
+
+#accordionExample {
+  max-width: 621px;
+}
+
+#accordionExample h2 > button {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #000000;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: unset;
 }

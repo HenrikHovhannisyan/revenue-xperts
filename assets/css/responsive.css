@@ -1,9 +1,25 @@
 /* lg - For large devices */
 @media screen and (max-width: 992px) {
+  #projects-spotlight {
+    margin-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .projects-spotlight-container {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
 }
 
 /* md - For medium devices */
 @media screen and (max-width: 768px) {
+  .projects-spotlight-title {
+    font-size: 38px;
+  }
+  #accordionExample h2 > button {
+    font-size: 18px;
+  }
 }
 
 /* sm */
