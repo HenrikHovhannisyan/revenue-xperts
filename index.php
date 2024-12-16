@@ -158,6 +158,151 @@
             </div>
         <div>
     </section>
+    <section id="previous-engagements">
+        <div class="container-fluid">
+            <div class="row">
+                <h2>Previous Engagements</h2>
+
+                <div class="row">
+                    <div class="col-lg-6">
+                        <ul class="nav nav-tabs d-block border-0" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">
+                                    <span>
+                                        Helping a UK SaaS start-up achieve $1M+ ARR within 7 months to secure $9.1M Series A funding.
+                                    </span>
+                                    <img class="tab-icon img-fluid" src="./assets/images/icons/left-black.png" alt="">
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">
+                                    <span>
+                                        Enabling a UK SaaS firm's Middle East market entry
+                                    </span>
+                                    <img class="tab-icon img-fluid" src="./assets/images/icons/left-black.png" alt="">
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">
+                                    <span>
+                                        Accelerating MRR for a newly developed SaaS based CMMS system
+                                    </span>
+                                    <img class="tab-icon img-fluid" src="./assets/images/icons/left-black.png" alt="">
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                <div>
+                                    <h3>Highlights</h3>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <img class="tab-icon img-fluid" src="./assets/images/plan-1.png" alt="">
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <img class="tab-icon img-fluid" src="./assets/images/plan-2.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="plan-info">
+                                        <h3>Situation</h3>
+                                        <p>
+                                            In the fiercely competitive UK SaaS ConTech sector, a sustainability-focused startup urgently needed to secure Series A funding to extend their cash runway and drive growth. With over half of their MRR at risk of churn within six months, the stakes were high.
+                                        </p>
+                                    </div>
+                                    <div class="plan-info">
+                                        <h3>Action</h3>
+                                        <p>
+                                            We rapidly designed a dynamic go-to-market strategy to boost investor confidence by identifying the Total Addressable Market (TAM) and focusing on five key Ideal Customer Profiles (ICPs). Our approach included creating ICO belief systems, refining offer strategies, and crafting distinct buyer journeys for both transactional and consultative sales.
+                                        </p>
+                                        <p>
+                                            Operational enhancements involved an overhaul of the HubSpot CRM, recruiting and onboarding new team members across Sales, Marketing, and Customer Success, implementing a new sales compensation plan, and introducing a fresh sales and marketing tech stack. generating over 90 top-of-funnel MQLs. We also trained the sales team in the MEDDPICC methodology
+                                        </p>
+                                    </div>
+                                    <div class="plan-info border-0">
+                                        <h3>Result</h3>
+                                        <p>
+                                            Our efforts swiftly renewed all at-risk contracts and escalated MRR from £27k to £106k in just 7 months, halving the sales cycle to 3 months. Key achievements included securing a £1.2M enterprise deal and other contracts worth over £400k TCV, enhancing pipeline accuracy and reporting. This led to Qflow securing $9.1M in Series A funding, positioning the company for sustained growth in the UK, US, and Middle East.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                <div>
+                                    <h3>Highlights</h3>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <img class="tab-icon img-fluid" src="./assets/images/plan-1.png" alt="">
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <img class="tab-icon img-fluid" src="./assets/images/plan-2.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="plan-info">
+                                        <h3>Situation</h3>
+                                        <p>
+                                            In the fiercely competitive UK SaaS ConTech sector, a sustainability-focused startup urgently needed to secure Series A funding to extend their cash runway and drive growth. With over half of their MRR at risk of churn within six months, the stakes were high.
+                                        </p>
+                                    </div>
+                                    <div class="plan-info">
+                                        <h3>Action</h3>
+                                        <p>
+                                            We rapidly designed a dynamic go-to-market strategy to boost investor confidence by identifying the Total Addressable Market (TAM) and focusing on five key Ideal Customer Profiles (ICPs). Our approach included creating ICO belief systems, refining offer strategies, and crafting distinct buyer journeys for both transactional and consultative sales.
+                                        </p>
+                                        <p>
+                                            Operational enhancements involved an overhaul of the HubSpot CRM, recruiting and onboarding new team members across Sales, Marketing, and Customer Success, implementing a new sales compensation plan, and introducing a fresh sales and marketing tech stack. generating over 90 top-of-funnel MQLs. We also trained the sales team in the MEDDPICC methodology
+                                        </p>
+                                    </div>
+                                    <div class="plan-info border-0">
+                                        <h3>Result</h3>
+                                        <p>
+                                            Our efforts swiftly renewed all at-risk contracts and escalated MRR from £27k to £106k in just 7 months, halving the sales cycle to 3 months. Key achievements included securing a £1.2M enterprise deal and other contracts worth over £400k TCV, enhancing pipeline accuracy and reporting. This led to Qflow securing $9.1M in Series A funding, positioning the company for sustained growth in the UK, US, and Middle East.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                                <div>
+                                    <h3>Highlights</h3>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <img class="tab-icon img-fluid" src="./assets/images/plan-1.png" alt="">
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <img class="tab-icon img-fluid" src="./assets/images/plan-2.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="plan-info">
+                                        <h3>Situation</h3>
+                                        <p>
+                                            In the fiercely competitive UK SaaS ConTech sector, a sustainability-focused startup urgently needed to secure Series A funding to extend their cash runway and drive growth. With over half of their MRR at risk of churn within six months, the stakes were high.
+                                        </p>
+                                    </div>
+                                    <div class="plan-info">
+                                        <h3>Action</h3>
+                                        <p>
+                                            We rapidly designed a dynamic go-to-market strategy to boost investor confidence by identifying the Total Addressable Market (TAM) and focusing on five key Ideal Customer Profiles (ICPs). Our approach included creating ICO belief systems, refining offer strategies, and crafting distinct buyer journeys for both transactional and consultative sales.
+                                        </p>
+                                        <p>
+                                            Operational enhancements involved an overhaul of the HubSpot CRM, recruiting and onboarding new team members across Sales, Marketing, and Customer Success, implementing a new sales compensation plan, and introducing a fresh sales and marketing tech stack. generating over 90 top-of-funnel MQLs. We also trained the sales team in the MEDDPICC methodology
+                                        </p>
+                                    </div>
+                                    <div class="plan-info border-0">
+                                        <h3>Result</h3>
+                                        <p>
+                                            Our efforts swiftly renewed all at-risk contracts and escalated MRR from £27k to £106k in just 7 months, halving the sales cycle to 3 months. Key achievements included securing a £1.2M enterprise deal and other contracts worth over £400k TCV, enhancing pipeline accuracy and reporting. This led to Qflow securing $9.1M in Series A funding, positioning the company for sustained growth in the UK, US, and Middle East.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 
 <?php include 'includes/footer.php'; ?>
@@ -284,6 +429,32 @@ $(document).ready(function () {
 
     $(this).fadeOut();
   });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+    const tabs = document.querySelectorAll('.nav-link');
+    const activeSrc = './assets/images/icons/left.png'; 
+    const inactiveSrc = './assets/images/icons/left-black.png';
+
+   
+    function updateTabIcons() {
+        tabs.forEach(tab => {
+            const img = tab.querySelector('img'); 
+            if (img) { 
+                if (tab.classList.contains('active')) {
+                    img.src = activeSrc; 
+                } else {
+                    img.src = inactiveSrc; 
+                }
+            }
+        });
+    }
+
+    updateTabIcons();
+
+    tabs.forEach(tab => {
+        tab.addEventListener('shown.bs.tab', updateTabIcons);
+    });
 });
 
 </script>
