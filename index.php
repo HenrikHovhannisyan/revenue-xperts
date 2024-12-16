@@ -141,6 +141,76 @@
             </div>
         </div>
     </section>
+    <section id="results-delivered">
+        <div class="container-fluid">
+            <div class="row">
+                <h2>Results Delivered</h2>
+                <div class="owl-carousel video-slider"></div>
+            </div>
+        </div>
+    </section>
+
 </main>
 
 <?php include 'includes/footer.php'; ?>
+<script>
+$(document).ready(function () {
+  const videoSlider = $(".video-slider");
+
+  const videos = [
+    { url: "https://www.youtube.com/embed/ReY-dIlZYgE" },
+    { url: "https://www.youtube.com/embed/m6SOJlkN1zU" },
+    { url: "https://www.youtube.com/embed/-5R-aLmZ9Ps" },
+    { url: "https://www.youtube.com/embed/-sZqtdT-GVw" },
+  ];
+
+  videos.forEach((video, index) => {
+    const videoItem = `
+      <div class="item">
+        <div class="video-container">
+          <iframe
+            id="video-${index}"
+            src="${video.url}?enablejsapi=1&rel=0&showinfo=0"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen
+          ></iframe>
+          <div class="custom-play-btn" data-video-id="video-${index}">
+            <img src="./assets/images/icons/play.png" alt="Play">
+          </div>
+        </div>
+      </div>
+    `;
+    videoSlider.append(videoItem);
+  });
+
+  videoSlider.owlCarousel({
+    loop: true,
+    margin: 20,
+    nav: true,
+    dots: true,
+    navText: [
+      '<i class="fas fa-chevron-left"></i>', // Иконка для предыдущего
+      '<i class="fas fa-chevron-right"></i>' // Иконка для следующего
+    ],
+    responsive: {
+      0: {
+        items: 1,
+      },
+      992: {
+        items: 2,
+      },
+    },
+  });
+
+  $(".video-slider").on("click", ".custom-play-btn", function () {
+    const iframeId = $(this).data("video-id");
+    const iframe = document.getElementById(iframeId).contentWindow;
+
+    iframe.postMessage('{"event":"command","func":"playVideo","args":""}', "*");
+
+    $(this).fadeOut();
+  });
+});
+
+</script>
