@@ -149,19 +149,55 @@
             </div>
         </div>
     </section>
-
+    <section id="testimonials">
+        <div class="container-fluid">
+            <div class="row">
+                <h2>Hear From the People</h2>
+                <div class="owl-carousel testimonial-slider">
+                </div>
+            </div>
+        <div>
+    </section>
 </main>
 
 <?php include 'includes/footer.php'; ?>
 <script>
 $(document).ready(function () {
   const videoSlider = $(".video-slider");
+  const testimonialSlider = $(".testimonial-slider");
 
   const videos = [
     { url: "https://www.youtube.com/embed/ReY-dIlZYgE" },
     { url: "https://www.youtube.com/embed/m6SOJlkN1zU" },
     { url: "https://www.youtube.com/embed/-5R-aLmZ9Ps" },
     { url: "https://www.youtube.com/embed/-sZqtdT-GVw" },
+  ];
+
+  const testimonials = [
+    {
+      name: "Azra Syed",
+      position: "Sales Executive",
+      text: "I was coached by Mo a few years ago and continue to take elements of his GTM playbook to help the various tech startups that I've consulted with since. With so many sales methodologies & GTM strategy frameworks available, I haven't come across anyone who understands the core B2B SaaS sales as well as Mo. One aspect of my team's sales performance that has significantly improved is the ability to produce accurate sales forecasts. This ensures we can make timely business decisions with the Board's full confidence.",
+      image: "./assets/images/avatar.png",
+    },
+    {
+      name: "Azra Syed",
+      position: "Sales Executive",
+      text: "I was coached by Mo a few years ago and continue to take elements of his GTM playbook to help the various tech startups that I've consulted with since. With so many sales methodologies & GTM strategy frameworks available, I haven't come across anyone who understands the core B2B SaaS sales as well as Mo. One aspect of my team's sales performance that has significantly improved is the ability to produce accurate sales forecasts. This ensures we can make timely business decisions with the Board's full confidence.",
+      image: "./assets/images/avatar.png",
+    },
+    {
+      name: "Azra Syed",
+      position: "Sales Executive",
+      text: "I was coached by Mo a few years ago and continue to take elements of his GTM playbook to help the various tech startups that I've consulted with since. With so many sales methodologies & GTM strategy frameworks available, I haven't come across anyone who understands the core B2B SaaS sales as well as Mo. One aspect of my team's sales performance that has significantly improved is the ability to produce accurate sales forecasts. This ensures we can make timely business decisions with the Board's full confidence.",
+      image: "./assets/images/avatar.png",
+    },
+    {
+      name: "Azra Syed",
+      position: "Sales Executive",
+      text: "I was coached by Mo a few years ago and continue to take elements of his GTM playbook to help the various tech startups that I've consulted with since. With so many sales methodologies & GTM strategy frameworks available, I haven't come across anyone who understands the core B2B SaaS sales as well as Mo. One aspect of my team's sales performance that has significantly improved is the ability to produce accurate sales forecasts. This ensures we can make timely business decisions with the Board's full confidence.",
+      image: "./assets/images/avatar.png",
+    },
   ];
 
   videos.forEach((video, index) => {
@@ -184,14 +220,51 @@ $(document).ready(function () {
     videoSlider.append(videoItem);
   });
 
+  testimonials.forEach((testimonial) => {
+    const testimonialItem = `
+      <div class="item">
+        <div class="testimonial-container">
+            <p>"${testimonial.text}</p>
+          <div class="testimonial-text">
+            <img src="${testimonial.image}" alt="${testimonial.name}" class="testimonial-image">
+            <div>
+                <h4>${testimonial.name}</h4>
+                <h5>${testimonial.position}</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+    testimonialSlider.append(testimonialItem);
+  });
+
   videoSlider.owlCarousel({
     loop: true,
     margin: 20,
     nav: true,
     dots: true,
     navText: [
-      '<i class="fas fa-chevron-left"></i>', // Иконка для предыдущего
-      '<i class="fas fa-chevron-right"></i>' // Иконка для следующего
+      '<i class="fas fa-chevron-left"></i>', 
+      '<i class="fas fa-chevron-right"></i>' 
+    ],
+    responsive: {
+      0: {
+        items: 1,
+      },
+      992: {
+        items: 2,
+      },
+    },
+  });
+
+  testimonialSlider.owlCarousel({
+    loop: true,
+    margin: 20,
+    nav: true,
+    dots: true,
+    navText: [
+      '<i class="fas fa-chevron-left"></i>', 
+      '<i class="fas fa-chevron-right"></i>'
     ],
     responsive: {
       0: {
