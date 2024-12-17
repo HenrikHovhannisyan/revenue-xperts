@@ -158,3 +158,15 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+function playVideo() {
+  const iframe = document.querySelector(".video-wrapper iframe");
+  const wrapper = document.querySelector(".video-wrapper");
+
+  const src = iframe.src;
+  if (!src.includes("autoplay=1")) {
+    iframe.src = `${src}&autoplay=1`;
+  }
+
+  wrapper.classList.add("playing");
+}

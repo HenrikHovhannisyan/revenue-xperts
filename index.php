@@ -160,7 +160,6 @@
     </section>
     <section id="previous-engagements">
         <div class="container-fluid">
-            <div class="row">
                 <h2>Previous Engagements</h2>
 
                 <div class="row">
@@ -300,7 +299,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
         </div>
     </section>
     <section id="steps">
@@ -376,6 +374,57 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+    <section id="boost">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-lg-6 boost-container">
+                    <h3>Unlock 4 </h3> 
+                    <h3>Strategies to</h3>
+                    <h3>
+                        <span>Boost ARR</span>
+                    </h3>
+                    <span></span>
+                    <form>
+                        <input type="text" placeholder="Enter your email address">
+                        <button class="btn btn-chat">Subscribe</button>
+                    </form>
+                    <small>Sign up to hear from us.</small>
+                    <div class="links">
+                        <a href="#">
+                            <img src="./assets/images/icons/linkedin.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/images/icons/x.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/images/icons/youtube.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/images/icons/instagram.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/images/icons/be.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 boost-video">
+                    <img src="./assets/images/24.png" class="img-fluid watermark" alt="Watermark">
+                    <div class="video-wrapper">
+                        <iframe 
+                            src="https://www.youtube.com/embed/ReY-dIlZYgE?si=F2HFwY1arH9_uMP4" 
+                            title="YouTube video player" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            referrerpolicy="strict-origin-when-cross-origin" 
+                            allowfullscreen>
+                        </iframe>
+                        <div class="custom-play-button" onclick="playVideo()">
+                            <img src="./assets/images/icons/play.png" alt="">
+                        </div>
+                    </div>
+                </div>
         </div>
     </section>
 </main>
