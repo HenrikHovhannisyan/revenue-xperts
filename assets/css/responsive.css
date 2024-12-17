@@ -1,5 +1,6 @@
 /* lg - For large devices */
 @media screen and (max-width: 992px) {
+  #steps,
   #previous-engagements,
   #testimonials,
   #results-delivered,
@@ -23,6 +24,57 @@
     width: unset;
     margin: unset;
   }
+
+  #faq .accordion-body,
+  #testimonials p,
+  .plan-info > p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  #previous-engagements .nav-link,
+  .plan-info > h3 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  #steps .step {
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  #steps .step > .step-number {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+  }
+
+  #steps .step > .step-number > p {
+    font-size: 19px;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+  }
+
+  #steps h3 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  #steps p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0;
+  }
+
+  .steps {
+    gap: 25px;
+  }
+
+  #steps .ready {
+    margin: 0 auto 25px;
+  }
 }
 
 /* md - For medium devices */
@@ -44,11 +96,13 @@
 }
 
 @media (min-width: 992px) {
-  #previous-engagements .col-lg-6 {
+  #previous-engagements .col-lg-6,
+  #steps .col-lg-5 {
     position: relative;
   }
 
-  #previous-engagements ul.nav-tabs {
+  #previous-engagements ul.nav-tabs,
+  #steps .ready {
     position: sticky;
     top: 100px;
     z-index: 10;

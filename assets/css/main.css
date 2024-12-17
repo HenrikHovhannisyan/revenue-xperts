@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.row {
+  margin: auto !important;
+}
+
 body {
   background-color: #f9f9f9;
 }
@@ -459,5 +463,155 @@ body {
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+  color: #000000;
+}
+
+/* #steps */
+#steps {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#steps h2 {
+  font-family: Poppins;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 73px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #131313;
+}
+
+#steps h2 > span {
+  color: #2757ff;
+}
+
+#steps .ready {
+  background-color: #ffffff;
+  border: 1px solid #00000033;
+  border-radius: 18px;
+  padding: 27px 37px;
+  max-width: 594px;
+  margin-top: 100px;
+}
+
+#steps h3 {
+  font-family: Poppins;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 78px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #2757ff;
+}
+
+#steps p {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #000000;
+  margin-top: 17px;
+  margin-bottom: 40px;
+}
+
+#steps small {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #afafaf;
+  display: block;
+  margin-top: 15px;
+}
+
+.steps {
+  display: grid;
+  gap: 100px;
+}
+
+#steps .step {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  cursor: pointer;
+}
+
+#steps .step > .step-number {
+  width: 82px;
+  height: 82px;
+  background-color: #e2e2e2;
+  border-radius: 50%;
+  background: #e2e2e2;
+}
+
+#steps .step.active > .step-number {
+  background-color: #2757ff;
+}
+
+#steps .step > .step-number > p {
+  color: #868686;
+  font-family: Poppins;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 73px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+  width: 82px;
+  height: 82px;
+}
+
+#steps .step.active > .step-number > p {
+  color: #ffffff;
+}
+
+#steps .step > .step-contenier {
+  background-color: #ffffff;
+  border: 1px solid #0040c280;
+  border-radius: 20px;
+  padding: 29px 36px;
+  max-width: 635px;
+}
+
+#steps .step.active > .step-contenier {
+  background: linear-gradient(112.87deg, #ffffff 51.41%, #eff3ff 96.91%);
+  border: 1px solid #0040c26e;
+}
+
+#steps .step > .step-contenier > h3 {
+  font-family: Poppins;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 73px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #868686;
+}
+
+#steps .step > .step-contenier > p {
+  font-family: Poppins;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #868686;
+}
+
+#steps .step.active > .step-contenier > h3,
+#steps .step.active > .step-contenier > p {
   color: #000000;
 }

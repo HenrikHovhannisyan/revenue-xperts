@@ -199,10 +199,10 @@
                                 <div>
                                     <h3>Highlights</h3>
                                     <div class="row">
-                                        <div class="col-lg-6">
+                                        <div class="col-6">
                                             <img class="tab-icon img-fluid" src="./assets/images/plan-1.png" alt="">
                                         </div>
-                                        <div class="col-lg-6">
+                                        <div class="col-6">
                                             <img class="tab-icon img-fluid" src="./assets/images/plan-2.png" alt="">
                                         </div>
                                     </div>
@@ -233,10 +233,10 @@
                                 <div>
                                     <h3>Highlights</h3>
                                     <div class="row">
-                                        <div class="col-lg-6">
+                                        <div class="col-6">
                                             <img class="tab-icon img-fluid" src="./assets/images/plan-1.png" alt="">
                                         </div>
-                                        <div class="col-lg-6">
+                                        <div class="col-6">
                                             <img class="tab-icon img-fluid" src="./assets/images/plan-2.png" alt="">
                                         </div>
                                     </div>
@@ -267,10 +267,10 @@
                                 <div>
                                     <h3>Highlights</h3>
                                     <div class="row">
-                                        <div class="col-lg-6">
+                                        <div class="col-6">
                                             <img class="tab-icon img-fluid" src="./assets/images/plan-1.png" alt="">
                                         </div>
-                                        <div class="col-lg-6">
+                                        <div class="col-6">
                                             <img class="tab-icon img-fluid" src="./assets/images/plan-2.png" alt="">
                                         </div>
                                     </div>
@@ -303,158 +303,81 @@
             </div>
         </div>
     </section>
+    <section id="steps">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-5">
+                    <h2>
+                        Simple Steps to <br> 
+                        <span>Growth</span>
+                    </h2>
+                    <div class="ready">
+                        <h3>Ready to Start?</h3>
+                        <p>
+                            Ready to scale new heights with a Fractional CRO? Let’s talk about how we can tailor our leadership to fit your unique vision and revenue goals.
+                            Contact us today for a no-obligation consultation.
+                        </p>
+                        <button class="btn btn-chat" type="submit">
+                            Contact us
+                            <i class="fa-regular fa-comment-dots"></i>
+                        </button>
+                        <small>
+                            All queries are replied within 24hrs.
+                        </small>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="steps">
+                        <div id="step-1" class="step active">
+                            <div class="step-number">
+                                <p>1</p>
+                                <span></span>
+                            </div>
+                            <div class="step-contenier">
+                                <h3>Make a Decision</h3>
+                                <p>
+                                    Is the status-quo acceptable? Decide. Secure consensus that an audit of the revenue function is required in order to execute a world-class transformation strategy to consistently achieve MRR and ARR targets to remain on course to realise overall revenue and growth ambitions.
+                                </p>
+                            </div>
+                        </div>
+                        <div id="step-2" class="step">
+                            <div class="step-number">
+                                <p>2</p>
+                            </div>
+                            <div class="step-contenier">
+                                <h3>Schedule a Meeting</h3>
+                                <p>
+                                    Is the status-quo acceptable? Decide. Secure consensus that an audit of the revenue function is required in order to execute a world-class transformation strategy to consistently achieve MRR and ARR targets to remain on course to realise overall revenue and growth ambitions.
+                                </p>
+                            </div>
+                        </div>
+                        <div id="step-3" class="step">
+                            <div class="step-number">
+                                <p>3</p>
+                            </div>
+                            <div class="step-contenier">
+                                <h3>Select an Engagement Plan</h3>
+                                <p>
+                                    Is the status-quo acceptable? Decide. Secure consensus that an audit of the revenue function is required in order to execute a world-class transformation strategy to consistently achieve MRR and ARR targets to remain on course to realise overall revenue and growth ambitions.
+                                </p>
+                            </div>
+                        </div>
+                        <div id="step-4" class="step">
+                            <div class="step-number">
+                                <p>4</p>
+                            </div>
+                            <div class="step-contenier">
+                                <h3>Transformation Completed</h3>
+                                <p>
+                                    Is the status-quo acceptable? Decide. Secure consensus that an audit of the revenue function is required in order to execute a world-class transformation strategy to consistently achieve MRR and ARR targets to remain on course to realise overall revenue and growth ambitions.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 
 <?php include 'includes/footer.php'; ?>
-<script>
-$(document).ready(function () {
-  const videoSlider = $(".video-slider");
-  const testimonialSlider = $(".testimonial-slider");
-
-  const videos = [
-    { url: "https://www.youtube.com/embed/ReY-dIlZYgE" },
-    { url: "https://www.youtube.com/embed/m6SOJlkN1zU" },
-    { url: "https://www.youtube.com/embed/-5R-aLmZ9Ps" },
-    { url: "https://www.youtube.com/embed/-sZqtdT-GVw" },
-  ];
-
-  const testimonials = [
-    {
-      name: "Azra Syed",
-      position: "Sales Executive",
-      text: "I was coached by Mo a few years ago and continue to take elements of his GTM playbook to help the various tech startups that I've consulted with since. With so many sales methodologies & GTM strategy frameworks available, I haven't come across anyone who understands the core B2B SaaS sales as well as Mo. One aspect of my team's sales performance that has significantly improved is the ability to produce accurate sales forecasts. This ensures we can make timely business decisions with the Board's full confidence.",
-      image: "./assets/images/avatar.png",
-    },
-    {
-      name: "Azra Syed",
-      position: "Sales Executive",
-      text: "I was coached by Mo a few years ago and continue to take elements of his GTM playbook to help the various tech startups that I've consulted with since. With so many sales methodologies & GTM strategy frameworks available, I haven't come across anyone who understands the core B2B SaaS sales as well as Mo. One aspect of my team's sales performance that has significantly improved is the ability to produce accurate sales forecasts. This ensures we can make timely business decisions with the Board's full confidence.",
-      image: "./assets/images/avatar.png",
-    },
-    {
-      name: "Azra Syed",
-      position: "Sales Executive",
-      text: "I was coached by Mo a few years ago and continue to take elements of his GTM playbook to help the various tech startups that I've consulted with since. With so many sales methodologies & GTM strategy frameworks available, I haven't come across anyone who understands the core B2B SaaS sales as well as Mo. One aspect of my team's sales performance that has significantly improved is the ability to produce accurate sales forecasts. This ensures we can make timely business decisions with the Board's full confidence.",
-      image: "./assets/images/avatar.png",
-    },
-    {
-      name: "Azra Syed",
-      position: "Sales Executive",
-      text: "I was coached by Mo a few years ago and continue to take elements of his GTM playbook to help the various tech startups that I've consulted with since. With so many sales methodologies & GTM strategy frameworks available, I haven't come across anyone who understands the core B2B SaaS sales as well as Mo. One aspect of my team's sales performance that has significantly improved is the ability to produce accurate sales forecasts. This ensures we can make timely business decisions with the Board's full confidence.",
-      image: "./assets/images/avatar.png",
-    },
-  ];
-
-  videos.forEach((video, index) => {
-    const videoItem = `
-      <div class="item">
-        <div class="video-container">
-          <iframe
-            id="video-${index}"
-            src="${video.url}?enablejsapi=1&rel=0&showinfo=0"
-            frameborder="0"
-            allow="autoplay; encrypted-media"
-            allowfullscreen
-          ></iframe>
-          <div class="custom-play-btn" data-video-id="video-${index}">
-            <img src="./assets/images/icons/play.png" alt="Play">
-          </div>
-        </div>
-      </div>
-    `;
-    videoSlider.append(videoItem);
-  });
-
-  testimonials.forEach((testimonial) => {
-    const testimonialItem = `
-      <div class="item">
-        <div class="testimonial-container">
-            <p>"${testimonial.text}</p>
-          <div class="testimonial-text">
-            <img src="${testimonial.image}" alt="${testimonial.name}" class="testimonial-image">
-            <div>
-                <h4>${testimonial.name}</h4>
-                <h5>${testimonial.position}</h5>
-            </div>
-          </div>
-        </div>
-      </div>
-    `;
-    testimonialSlider.append(testimonialItem);
-  });
-
-  videoSlider.owlCarousel({
-    loop: true,
-    margin: 20,
-    nav: true,
-    dots: true,
-    navText: [
-      '<i class="fas fa-chevron-left"></i>', 
-      '<i class="fas fa-chevron-right"></i>' 
-    ],
-    responsive: {
-      0: {
-        items: 1,
-      },
-      992: {
-        items: 2,
-      },
-    },
-  });
-
-  testimonialSlider.owlCarousel({
-    loop: true,
-    margin: 20,
-    nav: true,
-    dots: true,
-    navText: [
-      '<i class="fas fa-chevron-left"></i>', 
-      '<i class="fas fa-chevron-right"></i>'
-    ],
-    responsive: {
-      0: {
-        items: 1,
-      },
-      992: {
-        items: 2,
-      },
-    },
-  });
-
-  $(".video-slider").on("click", ".custom-play-btn", function () {
-    const iframeId = $(this).data("video-id");
-    const iframe = document.getElementById(iframeId).contentWindow;
-
-    iframe.postMessage('{"event":"command","func":"playVideo","args":""}', "*");
-
-    $(this).fadeOut();
-  });
-});
-
-document.addEventListener("DOMContentLoaded", function () {
-    const tabs = document.querySelectorAll('.nav-link');
-    const activeSrc = './assets/images/icons/left.png'; 
-    const inactiveSrc = './assets/images/icons/left-black.png';
-
-   
-    function updateTabIcons() {
-        tabs.forEach(tab => {
-            const img = tab.querySelector('img'); 
-            if (img) { 
-                if (tab.classList.contains('active')) {
-                    img.src = activeSrc; 
-                } else {
-                    img.src = inactiveSrc; 
-                }
-            }
-        });
-    }
-
-    updateTabIcons();
-
-    tabs.forEach(tab => {
-        tab.addEventListener('shown.bs.tab', updateTabIcons);
-    });
-});
-
-</script>
