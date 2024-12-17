@@ -42,3 +42,16 @@
 /* xs - For small devices */
 @media screen and (max-width: 350px) {
 }
+
+@media (min-width: 992px) {
+  #previous-engagements .col-lg-6 {
+    position: relative;
+  }
+
+  #previous-engagements ul.nav-tabs {
+    position: sticky;
+    top: 100px;
+    z-index: 10;
+    background-color: #fff;
+  }
+}
