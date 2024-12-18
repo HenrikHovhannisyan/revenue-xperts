@@ -22,6 +22,7 @@ body {
 .banner_section {
   background-image: url("../images/hero-banner.png");
   padding-bottom: 70px;
+  padding-top: 15px;
 }
 
 /* #projects-spotlight */

@@ -30,6 +30,64 @@
 </div>
 
 <main>
+    <section id="startup">
+        <div class="container-fluid">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="startup-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="startup-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+                </li>
+            </ul>
+            <div class="tab-content shadow" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <div class="row">
+                        <div class="col-lg-7 startup-container">
+                            <h3>Startup</h3>
+                            <p class="border-bottom">
+                                Is your strength product and technology but you’re struggling when it comes to revenue?
+                            </p>
+                            <p class="border-bottom">
+                                Do you have a compelling SaaS/software value proposition and are looking to gain some commercial traction with some quick big-wins in time for your next round of funding?
+                            </p>
+                            <p class="border-bottom">
+                                Are you looking to transition from founder-led sales to build a sales team with a go-to-market strategy that  not only enables you to  win new deals  and ‘land and expand’ but capitalises on the best revenue channels for your SaaS? 
+                            </p>
+                            <p class="">
+                                Do you want sales process and winning playbooks to deliver predictable MRR and ARR?
+                            </p>
+                        </div>
+                        <div class="col-lg-5 startup-image ps-lg-0">
+                            <img src="./assets/images/startup-image.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <div class="row">
+                        <div class="col-lg-7 startup-container">
+                            <h3>Startup</h3>
+                            <p class="border-bottom">
+                                Is your strength product and technology but you’re struggling when it comes to revenue?
+                            </p>
+                            <p class="border-bottom">
+                                Do you have a compelling SaaS/software value proposition and are looking to gain some commercial traction with some quick big-wins in time for your next round of funding?
+                            </p>
+                            <p class="border-bottom">
+                                Are you looking to transition from founder-led sales to build a sales team with a go-to-market strategy that  not only enables you to  win new deals  and ‘land and expand’ but capitalises on the best revenue channels for your SaaS? 
+                            </p>
+                            <p class="">
+                                Do you want sales process and winning playbooks to deliver predictable MRR and ARR?
+                            </p>
+                        </div>
+                        <div class="col-lg-5 startup-image ps-lg-0">
+                            <img src="./assets/images/startup-image.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section id="faq">
         <div class="container-fluid">
             <div class="accordion" id="accordionExample-faq">

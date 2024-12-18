@@ -36,8 +36,73 @@
   max-height: 100%;
 }
 
+/* #startup */
+#startup {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#startup .nav-pills {
+  background-color: #dedede;
+  width: max-content;
+  padding: 8px;
+  border-radius: 7px;
+}
+
+.startup-link {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #202630;
+  padding: 10px 24px;
+  background-color: #dedede;
+  border-radius: 5px;
+  border: 0;
+}
+
+.startup-link.active {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.startup-container {
+  max-width: 690px;
+  padding: 40px 60px 40px 40px;
+  background-color: #ffffff;
+}
+
+.startup-container h3 {
+  font-family: Poppins;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 73px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #131313;
+}
+
+.startup-container p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #4c4c4c;
+}
+
 /* lg - For large devices */
 @media screen and (max-width: 992px) {
+  #startup {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
   .banner-founders-container > h2 {
     font-size: 50px;
     line-height: 55px;
@@ -46,6 +111,19 @@
   .banner-founders-container > p {
     font-size: 18px;
     line-height: 28px;
+  }
+
+  .startup-container {
+    padding: 20px;
+  }
+
+  .startup-container h3 {
+    font-size: 38px;
+  }
+
+  .startup-container p {
+    font-size: 14px;
+    line-height: 20px;
   }
 }
 
