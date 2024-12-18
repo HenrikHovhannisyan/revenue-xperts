@@ -97,12 +97,48 @@
   color: #4c4c4c;
 }
 
+#founders #faq {
+  background-color: #ffffff;
+}
+
+#founders #faq h2 {
+  font-family: Poppins;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 73px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #131313;
+}
+
+/* #step5 */
+#step5 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #ffffff;
+}
+
+#step5 h2 {
+  font-family: Poppins;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 73px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #131313;
+  margin-bottom: 35px;
+}
+
 /* lg - For large devices */
 @media screen and (max-width: 992px) {
+  #step5,
   #startup {
     padding-top: 50px;
     padding-bottom: 50px;
   }
+
   .banner-founders-container > h2 {
     font-size: 50px;
     line-height: 55px;
@@ -146,6 +182,8 @@
 
 /* sm - For small devices */
 @media screen and (max-width: 576px) {
+  #founders #faq h2,
+  #step5 h2,
   .banner-founders-container > h2 {
     font-size: 30px;
     line-height: 35px;

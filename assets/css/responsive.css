@@ -1,6 +1,7 @@
 /* lg - For large devices */
 @media screen and (max-width: 992px) {
   #boost,
+  #faq,
   #steps,
   #previous-engagements,
   #testimonials,
@@ -91,6 +92,11 @@
   }
   #accordionExample h2 > button {
     font-size: 18px;
+  }
+
+  #previous-engagements h2 {
+    font-size: 38px;
+    line-height: 50px;
   }
 }
 

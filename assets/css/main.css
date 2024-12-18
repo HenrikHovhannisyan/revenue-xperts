@@ -11,6 +11,10 @@ a {
   margin: auto !important;
 }
 
+ol > li {
+  margin-bottom: 15px;
+}
+
 body {
   background-color: #f9f9f9;
 }
