@@ -1,0 +1,101 @@
+.banner-founders-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.banner-founders-container > h2 {
+  font-family: Poppins;
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 73px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #131313;
+}
+
+.banner-founders-container > p {
+  font-family: Poppins;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 32px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #4c4c4c;
+}
+
+#banner-founders .owl-carousel .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 83px;
+}
+
+#banner-founders .owl-carousel .item img {
+  object-fit: contain;
+  width: auto !important;
+  max-height: 100%;
+}
+
+/* lg - For large devices */
+@media screen and (max-width: 992px) {
+  .banner-founders-container > h2 {
+    font-size: 50px;
+    line-height: 55px;
+  }
+
+  .banner-founders-container > p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+/* md - For medium devices */
+@media screen and (max-width: 768px) {
+  .banner-founders-container > h2 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+  .banner-founders-container > p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  #banner-founders .owl-carousel .item {
+    height: 70px;
+  }
+}
+
+/* sm - For small devices */
+@media screen and (max-width: 576px) {
+  .banner-founders-container > h2 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .banner-founders-container > p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  #banner-founders .owl-carousel .item {
+    height: 60px;
+  }
+}
+
+/* xs - For extra small devices */
+@media screen and (max-width: 350px) {
+  .banner-founders-container > h2 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .banner-founders-container > p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  #banner-founders .owl-carousel .item {
+    height: 50px;
+  }
+}

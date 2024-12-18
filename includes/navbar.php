@@ -10,24 +10,24 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav navbar_nav m-auto">
                 <li class="nav-item">
-                    <a class="nav-link nav_link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link nav_link active" aria-current="page" href="/">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link nav_link" href="#">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav_link" href="#">Founders & CEOs</a>
+                    <a class="nav-link nav_link" href="./founders.php">Founders & CEOs</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link nav_link" href="#">SaaS Sales Leaders</a>
                 </li>
             </ul>
-            <form class="d-flex" role="search">
+            <div class="d-flex">
                 <button class="btn btn-chat" type="submit">
                     Let’s Chat
                     <i class="fa-regular fa-comment-dots"></i>
                 </button>
-            </form>
+            </div>
         </div>
     </div>
 </nav>
