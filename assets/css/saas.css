@@ -1,0 +1,56 @@
+.saas-banner-text {
+  background-color: #f9f9f9;
+  padding: 20px 32px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #131313;
+}
+
+#saas > #startup .startup-container {
+  max-width: unset;
+}
+
+#saas > #startup .startup-image {
+  position: relative;
+}
+
+#saas > #startup .startup-image > #vector-1 {
+  position: absolute;
+  bottom: 105px;
+  right: 210px;
+  width: 43px;
+  height: 48px;
+}
+#saas > #startup .startup-image > #vector-2 {
+  position: absolute;
+  bottom: -55px;
+  right: -80px;
+}
+
+/* lg - For large devices */
+@media screen and (max-width: 1555px) {
+  #saas > #startup .startup-image > #vector-1,
+  #saas > #startup .startup-image > #vector-2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 992px) {
+}
+
+/* md - For medium devices */
+@media screen and (max-width: 768px) {
+}
+
+/* sm */
+@media screen and (max-width: 576px) {
+}
+
+/* xs - For small devices */
+@media screen and (max-width: 350px) {
+}
