@@ -124,6 +124,12 @@
                     <p>
                         60% of high-growth companies use sales coaching as an integrated part of a sales training program.
                     </p >
+                    <div id="green">
+                        <img src="./assets/images/green.png" class="img-fluid">
+                        <p>
+                            Isn’t this exactly what you need to secure and retain the confidence of your senior leadership team and Board? 
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>

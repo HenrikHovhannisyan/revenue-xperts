@@ -184,6 +184,26 @@
   color: #4c4c4c;
 }
 
+#saas-info #green {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #d2ff56;
+  border-radius: 6px;
+  margin-top: 25px;
+}
+#saas-info #green > p {
+  font-family: Poppins;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 31.5px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #131313;
+  margin-bottom: 0;
+}
+
 /* lg - For large devices */
 @media screen and (max-width: 1555px) {
   #saas > #startup .startup-image > #vector-1,
