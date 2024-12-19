@@ -13,7 +13,7 @@
                     <a class="nav-link nav_link active" aria-current="page" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav_link" href="#">About</a>
+                    <a class="nav-link nav_link" href="./about.php">About</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link nav_link" href="./founders.php">Founders & CEOs</a>
