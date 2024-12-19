@@ -68,6 +68,7 @@
     </section>
     <section id="saas-info">
         <div class="container-fluid">
+            <div class="row">
             <div class="parent">
                 <div class="div1">
                     <div class="box">
@@ -132,6 +133,7 @@
                     </div>
                 </div>
             </div>
+            </div>
         </div>
     </section>
     <section id="bootcamp">
@@ -166,6 +168,63 @@
             <p>
             The Bell Rings Sales Acceleration 4-Day Boot Camp can be delivered online or in-person.
             </p>
+        </div>
+    </section>
+    <section id="steps">
+        <div class="container-fluid">
+            <h2>
+                4-Day Transformation
+            </h2>
+            <div class="row">
+                <div class="col">
+                    <div class="steps">
+                        <div id="step-1" class="step active">
+                            <div class="step-number">
+                                <p>1</p>
+                            </div>
+                            <div class="step-contenier">
+                                <h3>Day 1 - DNA of a B2B SaaS Sales Champion</h3>
+                                <p>
+                                    We will examine ‘personal positioning’, discipline and sales accountability. Each member of your sales team will learn to stand out as a subject matter expert. Participants will learn how to create emotional and logical value that will compel their prospects to buy. Your sales team will learn to manage company resources intelligently. We will also work engaging in those tough, insightful and truthful client conversations that most sales folk shy away from. They will also embrace the four best pieces of SaaS/tech sales advice ever that will see their conversion rates skyrocket.
+                                </p>
+                            </div>
+                        </div>
+                        <div id="step-2" class="step">
+                            <div class="step-number">
+                                <p>2</p>
+                            </div>
+                            <div class="step-contenier">
+                                <h3>Day 2 - SaaS Sales Opportunity Framework</h3>
+                                <p>
+                                The Bell Rings Sales Acceleration process for closing deals is largely based on the MEDDPICC sales methodology. Participants will learn what to do next in each deal and how to do it. It’s like Google Maps for SaaS and tech sellers. They will never feel lost in a deal ever again. Participants will be able to score each sales opportunity scientifically to establish focus and commitment to confidently close with urgency. We will use real deals from participants' pipelines as working examples. No more deal-slide. Pipeline quality, visibility and velocity will improve. Forecasts will become consistently accurate.
+                                </p>
+                            </div>
+                        </div>
+                        <div id="step-3" class="step">
+                            <div class="step-number">
+                                <p>3</p>
+                            </div>
+                            <div class="step-contenier">
+                                <h3>Day 3 - Sales Funnel Optimisation</h3>
+                                <p>
+                                Participants will learn how excel in each stage of the sales funnel - from Prospecting, Discovery, Demos, Proposals, through to CLOSED-WON. They will experience the latest sales tech, tools and resources to automate aspects of the Bell Rings Sales Acceleration Blueprint. Templates, guides and strategies that separate the #1 B2B SaaS sales professionals from the rest will be provided. We will go through Prospecting and how to create and maintain a 4x pipeline. Each IC and quota carrier will learn how to continue their prospecting efforts 24x7. No more relying solely on the Marketing team or SDRs to deliver qualified leads.
+                                </p>
+                            </div>
+                        </div>
+                        <div id="step-4" class="step">
+                            <div class="step-number">
+                                <p>4</p>
+                            </div>
+                            <div class="step-contenier">
+                                <h3>Day 4 - Creating Value & Social Selling</h3>
+                                <p>
+                                We will take a look at how your sellers and wider commercial roles can leverage LinkedIn Sales Navigator to not only prospect like champions. We also map out the buying journey of your target customers and empower your sellers to stand out as subject matter experts in order to deliver true value to your customer base and Ideal Customer Profiles (ICPs). They will learn how to map key accounts and uncover insights that will enable them to secure a competitive advantage when it comes to acquiring mindshare with key influencers, buyers and the ‘C’ suite.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <section id="results-delivered">

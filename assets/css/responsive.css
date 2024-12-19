@@ -1,5 +1,8 @@
 /* lg - For large devices */
 @media screen and (max-width: 992px) {
+  .navbar-brand {
+    width: 55%;
+  }
   #boost,
   #faq,
   #steps,
@@ -76,6 +79,16 @@
 
   #steps .ready {
     margin: 0 auto 25px;
+  }
+
+  #steps .step > .step-contenier > h3 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  #steps .step > .step-contenier > p {
+    font-size: 16px;
+    line-height: 25px;
   }
 
   .watermark {

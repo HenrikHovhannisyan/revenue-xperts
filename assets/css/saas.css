@@ -233,12 +233,58 @@
   color: #4c4c4c;
 }
 
+/* #steps */
+#saas > #steps {
+  background-color: #ffffff;
+}
+#saas > #steps .steps {
+  gap: 1px;
+}
+#saas > #steps h2 {
+  font-family: Poppins;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 73px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #131313;
+  margin-bottom: 70px;
+}
+#saas > #steps #step-1,
+#saas > #steps #step-3 {
+  margin-right: auto;
+}
+#saas > #steps #step-2,
+#saas > #steps #step-4 {
+  margin-left: auto;
+}
+
+#saas > #steps #step-1 > .step-contenier,
+#saas > #steps #step-2 > .step-contenier,
+#saas > #steps #step-3 > .step-contenier,
+#saas > #steps #step-4 > .step-contenier {
+  width: 100%;
+  max-width: 606px !important;
+}
+
+#saas > #steps #step-1 > .step-number,
+#saas > #steps #step-3 > .step-number {
+  order: 1;
+}
+
+#saas > #steps #step-2 > .step-contenier,
+#saas > #steps #step-4 > .step-contenier {
+  order: 2;
+}
+
 /* lg - For large devices */
 @media screen and (max-width: 1555px) {
   #saas > #startup .startup-image > #vector-1,
   #saas > #startup .startup-image > #vector-2 {
     display: none;
   }
+  #day4,
   #saas-info,
   #bootcamp {
     padding-top: 50px;
@@ -276,10 +322,23 @@
   #saas-info .div4 {
     padding: 20px;
   }
+
+  #saas > #steps #step-1 > .step-number,
+  #saas > #steps #step-3 > .step-number,
+  #saas > #steps #step-2 > .step-contenier,
+  #saas > #steps #step-4 > .step-contenier {
+    order: unset;
+  }
+
+  #saas > #steps .steps {
+    gap: 10px;
+    justify-content: center;
+  }
 }
 
 /* md - For medium devices */
 @media screen and (max-width: 768px) {
+  #saas > #steps h2,
   #bootcamp h3 {
     font-size: 38px;
     line-height: 50px;
