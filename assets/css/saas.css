@@ -33,14 +33,199 @@
   right: -80px;
 }
 
+/* #saas-info */
+#saas-info {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #ffffff;
+}
+
+#saas-info .parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 20px;
+}
+
+#saas-info .div1 {
+  grid-row: span 2 / span 2;
+  background-color: #2757ff;
+  border-radius: 8px;
+  width: 444px;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+#saas-info .div2 {
+  grid-column: span 4 / span 4;
+  grid-row: span 0 / span 0;
+  background-color: #ffffff;
+  border: 1px solid #d3d3d3;
+  box-shadow: 0px 20px 50px 0px #0000001f;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+#saas-info .div3 {
+  grid-column: span 4 / span 4;
+  grid-column-start: 2;
+  grid-row-start: 2;
+  background-color: #000000;
+  border-radius: 8px;
+  padding: 30px;
+}
+
+#saas-info .div4 {
+  grid-column: span 5 / span 5;
+  grid-row-start: 3;
+  background-color: #ffffff;
+  border: 1px solid #d3d3d3;
+  box-shadow: 0px 20px 50px 0px #0000001f;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+#saas-info .div1 > .box {
+  padding: 90px 40px 0;
+}
+#saas-info .div1 .box > p {
+  font-family: Poppins;
+  font-size: 27px;
+  font-weight: 500;
+  line-height: 31px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+
+#saas-info .div1 .box > #small {
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 31px;
+  text-align: right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+#saas-info .div1 > img {
+  border-bottom-left-radius: 8px;
+}
+
+#saas-info .div2 > h3 {
+  font-family: Poppins;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 73px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #131313;
+}
+
+#saas-info .div2 > p {
+  font-family: Poppins;
+  font-size: 27px;
+  font-weight: 500;
+  line-height: 37px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #000000;
+}
+
+#saas-info .div2 li {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #4c4c4c;
+}
+
+#saas-info .div3 > p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+
+#saas-info .div3 > p > span {
+  color: #d2ff56;
+}
+
+#saas-info .div4 > h3 {
+  font-family: Poppins;
+  font-size: 27px;
+  font-weight: 500;
+  line-height: 37px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #000000;
+}
+
+#saas-info .div4 > p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #4c4c4c;
+}
+
 /* lg - For large devices */
 @media screen and (max-width: 1555px) {
   #saas > #startup .startup-image > #vector-1,
   #saas > #startup .startup-image > #vector-2 {
     display: none;
   }
+  #saas-info {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  #saas-info .parent {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #saas-info .div1 {
+    grid-row: span 1;
+    width: unset;
+  }
+  #saas-info .div3 {
+    grid-column-start: 1;
+    grid-column: span 5;
+  }
+  #saas-info .div4 {
+    grid-column: span 5;
+  }
 }
 @media screen and (max-width: 992px) {
+  #saas-info .parent {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  #saas-info .div1,
+  #saas-info .div2,
+  #saas-info .div3,
+  #saas-info .div4 {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+  #saas-info .div2,
+  #saas-info .div3,
+  #saas-info .div4 {
+    padding: 20px;
+  }
 }
 
 /* md - For medium devices */
@@ -49,6 +234,23 @@
 
 /* sm */
 @media screen and (max-width: 576px) {
+  #saas-info {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  #saas-info .div1 {
+    padding: 20px;
+  }
+  #saas-info .div2 > h3 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+  #saas-info .div2 > p,
+  #saas-info .div3 > p,
+  #saas-info .div4 > p {
+    font-size: 16px;
+    line-height: 22px;
+  }
 }
 
 /* xs - For small devices */
