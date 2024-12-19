@@ -29,6 +29,9 @@
   color: #ffffff;
 }
 
+.contact > .message {
+  margin-left: auto;
+}
 .contact > .message h3 {
   font-family: Poppins;
   font-size: 56px;
